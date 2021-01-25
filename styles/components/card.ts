@@ -83,11 +83,6 @@ export const SwitchTheme = styled.label`
     transform: translateX(39px);
   }
 `
-export const IconMoon = styled.img`
-  color: #fff;
-  transform: rotate(270deg);
-`
-
 export const PokemonContainer = styled.div`
   display:grid;  
   grid-template-rows: 15vh 1fr;
@@ -210,16 +205,16 @@ export const EvolutionContainer = styled.div`
     margin: 1rem;
 
     div {
-    margin-left:4rem;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
+      margin-left:4rem;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
 
-    img {
-      margin-bottom:1rem;
+      img {
+        margin-bottom:1rem;
+      }
     }
-  }
   }
 `
 export const Description = styled.div`

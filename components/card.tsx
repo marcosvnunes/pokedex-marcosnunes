@@ -21,7 +21,6 @@ import Pokedex from 'pokedex-promise-v2'
 import WbSunnyOutlinedIcon from '@material-ui/icons/WbSunnyOutlined';
 import Brightness2OutlinedIcon from '@material-ui/icons/Brightness2Outlined';
 
-
 interface PokemonApiResponse {
   id:number
   name:string
@@ -60,9 +59,6 @@ export default function pokemon () {
   const [pokemon, setPokemon] = useState<PokemonApiResponse>({} as PokemonApiResponse)
   const [loading, setLoading] = useState(false)
   const [evolutions, setEvolutions] = useState<EvolutionsProps[]>([])
-
-
-
   useEffect(() => {
     setLoading(true)
     const response = async() => {
