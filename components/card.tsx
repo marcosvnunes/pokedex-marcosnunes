@@ -134,10 +134,10 @@ export default function pokemon () {
             </BoxContainer>
             <DobleContainer>
               <BoxContainer>
-                <strong>Height :</strong> 2`04" / {(pokemon.height /10).toFixed(1)} m
+                <strong>Height : </strong> 2`04" / {(pokemon.height /10).toFixed(1)} m
               </BoxContainer>         
               <BoxContainer>
-                <strong>Weight :</strong>{(pokemon.weight / 10 * 2.20462).toFixed(1)}lbs. / {(pokemon.weight / 10).toFixed(1)}kg
+                <strong>Weight : </strong>{(pokemon.weight / 10 * 2.20462).toFixed(1)}lbs. / {(pokemon.weight / 10).toFixed(1)}kg
               </BoxContainer>
             </DobleContainer>
             <BoxContainer>
